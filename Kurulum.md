@@ -33,4 +33,4 @@ Git'i Windows'da kurmak oldukça kolaydır.Alt kısımdaki sayfasından indirip 
 
 ===========
 
-[1]: ../images/install.png
+[1]: ..//images/install.png
