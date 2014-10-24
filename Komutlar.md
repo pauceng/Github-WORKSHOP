@@ -19,9 +19,9 @@ git clone https:// /*proje linki*/
 Ek 
 =========
 
-`git log` - yapılan değişikleri gösterir
-`git rm proje ismi` - git'den proje silinmesi /*not sildikten sonra git commit -m "silme mesajı" */
-`git pull link` - githubda projenize yapılmış değişikliyi kendi lokalinize cekmeniz için.
+* `git log` - yapılan değişikleri gösterir
+* `git rm proje ismi` - git'den proje silinmesi /*not sildikten sonra git commit -m "silme mesajı" */
+* `git pull link` - githubda projenize yapılmış değişikliyi kendi lokalinize cekmeniz için.
 
 ===========
 
