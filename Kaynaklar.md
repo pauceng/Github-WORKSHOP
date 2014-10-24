@@ -6,6 +6,7 @@ Git'i başka nerden öğrene bilirim?
 * [PSC git tutorial](https://github.com/paufsc/journey-to-git)
 * [Git Downlad](http://git-scm.com/download/win)
 * [Atlassian](https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-config)
+* [Github Web Page](http://shmehemmed.wordpress.com/2014/07/01/github-io/#more-482)
 
 ===========
 
