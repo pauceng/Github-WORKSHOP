@@ -33,4 +33,7 @@ Git'i Windows'da kurmak oldukça kolaydır.Alt kısımdaki sayfasından indirip 
 
 ===========
 
-[1]: ..//images/install.png
+[1]: https://github.com/PAU-Projects/Github-WORKSHOP/blob/master/images/install.png===========
+
+|[sonraki](https://github.com/PAU-Projects/Github-WORKSHOP/blob/master/SSH.md)
+-----|----
