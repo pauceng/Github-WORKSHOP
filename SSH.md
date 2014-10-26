@@ -61,6 +61,42 @@ SSH key oluşturalım
 > *bu dizine bulunan `~/.ssh/id_rsa.pub` dosyasını açıp ve manuel olarak içeriğini kopyalamayabilirsiniz.*
 
 * Şimdi anahtarı kopyaladıktan sonra, GitHub hesabımıza ekliyelim:
+    * Github hesabınızda ayarlar kısmından SSH key bölümünü seciyoruz
+    * Add key kısmını seciyoruz
+    * Kopyaladığımız key'i buraya yapıştırdıktan sonra
+sonra,
+
+Şimdi Github hesabımız ile bağlatı kurmaya çalışalım ve daha önce oluşturduğunuz parola oldu şifrenizi kullanarak yapaçaksınız.
+
+* Termineli açalım (`ctrl+alt+T`);
+
+```bash
+    $ ssh -T git@github.com
+    # Attempts to ssh to github
+```
+Böyle hata mesajı ile karşılaşabilirsiniz!
+
+```bash
+    ...
+    Agent admitted failure to sign using the key.
+    debug1: No more authentication methods to try.
+    Permission denied (publickey).
+```
+* Karşılaşmanız gereken mesaj böyle olması gerekiyor ve `yes` yazarak bu adımı bitirebilirsiniz.
+
+```bash
+    The authenticity of host 'github.com (207.97.227.239)' can't be established.
+    # RSA key fingerprint is 16:27:ac:a5:76:28:2d:36:63:1b:56:4d:eb:df:a6:48.
+    # Are you sure you want to continue connecting (yes/no)?
+```
+* `yes` yazıp onaylama işleminden sonra ;
+
+```bash
+    Hi username! You've successfully authenticated, but GitHub does not
+    # provide shell access.
+```
+
+Good pushing :smile:
 
 
 ===============
